@@ -10,8 +10,8 @@ function Navbar() {
     return (
         <>
             <nav id="nav">
-                <ul class="links">
-                    <li class="active">
+                <ul className="links">
+                    <li className="active">
                         <Link to="/">Presentation</Link>
                     </li>
                     <li>
@@ -22,7 +22,7 @@ function Navbar() {
                     <li><span><BsDot/></span></li>
                     <li><a href="/Christophe_Correia_-_Front_end_Developer_Oct-2020.pdf" download>My CV 2020</a></li>
                 </ul> 
-                <ul class="icons">
+                <ul className="icons">
                     <li>
                         <Link to={'//www.linkedin.com/in/christophe-fran%C3%A7ois-correia/'} target="_blank" rel="noopener" className="icon brands">
                             <FaLinkedin />

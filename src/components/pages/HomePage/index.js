@@ -1,18 +1,17 @@
 import React from 'react'
-import Container from '../../layout/Container'
+import Container from './Container'
 import Navbar from '../../Navbar'
 import Intro from '../Intro'
-import Header from '../../Header'
+import PostFeatured from './posts/PostFeatured'
 
-function HomePage() {
-    return (
-        <>
-          <Intro />
-          <Header />
-          <Navbar />
-          <Container />
-        </>
-    )
+function HomePage() {  
+  return (
+      <>
+        <Intro />
+        <Navbar /> 
+        <Container /> 
+      </>
+  )
 } 
 
 export default HomePage
