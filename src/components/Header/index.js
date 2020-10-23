@@ -6,7 +6,7 @@ const scrollToRef = (ref) => window.scrollTo({left: 0, top: ref.current.offsetTo
 
 function Header({scrollTo}) {
     
-    const myRef = useRef(null);
+    const myRef = useRef(null); 
 
     if(scrollTo){
         scrollToRef(myRef);

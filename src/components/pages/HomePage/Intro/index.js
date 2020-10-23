@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FaArrowDown } from 'react-icons/fa'
-import Header from '../../Header';
+import Header from '../../../Header'; 
 
 
 function Intro() {
@@ -10,6 +10,15 @@ function Intro() {
     const handleIntroScroll = () => {
         setHidden(!hidden)
     }; 
+
+    window.onscroll = function() {
+        if(window.pageYOffset <= 350){
+            setHidden(false)            
+        }else{
+            setHidden(true) 
+        }
+    }
+
 
     return (
         <>
