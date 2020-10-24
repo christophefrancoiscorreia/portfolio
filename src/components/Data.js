@@ -1,17 +1,17 @@
 export const postOne = {
-    img: '',
-    link: '',
-    gitLink: '',
-    title: '',
-    text: '',
-    alt: '',
+    img: 'images/mybanktemplate.jpg',
+    link: '//responsive-website-test.herokuapp.com/',
+    gitLink: '//github.com/christophefrancoiscorreia/responsive-react-website',
+    title: 'Responsive Website',
+    text: 'Website template, web react app.',
+    alt: 'Responsive Website',
     self: false,
 };
  
 export const postTwo = {
     img: 'images/whatsapp.jpg',
-    link: 'https://whatsapp-christophecorreia.herokuapp.com/',
-    gitLink: 'https://github.com/christophefrancoiscorreia/whatsapp-clone',
+    link: '//whatsapp-christophecorreia.herokuapp.com/',
+    gitLink: '//github.com/christophefrancoiscorreia/whatsapp-clone',
     title: 'WhatsApp Clone',
     text: 'Creation of a chat enviroment, "Whatsapp" like.',
     alt: 'WhatsApp Clone',
@@ -20,7 +20,7 @@ export const postTwo = {
 export const postThree = {
     img: 'images/pic02.jpg',
     link: '/budgety',
-    gitLink: 'https://github.com/christophefrancoiscorreia/budget-income-manager',
+    gitLink: '//github.com/christophefrancoiscorreia/budget-income-manager',
     title: 'Budget manager',
     text: `Project in full vanila javascript.<br/>App to manage a monthly wallet.`,
     alt: 'Budget manager',
@@ -30,7 +30,7 @@ export const postThree = {
 export const postFour = {
     img: 'images/pic03.jpg',
     link: '/forkify',
-    gitLink: 'https://github.com/christophefrancoiscorreia/recipes-searcher',
+    gitLink: '//github.com/christophefrancoiscorreia/recipes-searcher',
     title: 'Forkify',
     text: 'Project in ES6 compiled with Webpack. API parsing. <br/>A search motor for recipes, where you can generate an ingredients list and add favorite recipes to your localstorage.',
     alt: 'Forkify',
@@ -39,7 +39,7 @@ export const postFour = {
 
 export const postFive = {
     img: 'images/pic04.jpg',
-    link: 'https://www.trainingneurosensoriel.com/',
+    link: '//www.trainingneurosensoriel.com/',
     gitLink: '',
     title: '"Hipérion"<br/>Freelance Job',
     text: `Freelance fullstack development project.<br/>Extra: Webdesign and Logo design.<br>Wordpress for a psychotherapist office based in Paris.`,
@@ -50,7 +50,7 @@ export const postFive = {
 
 export const postSix = {
     img: 'images/pic05.jpg',
-    link: 'https://hyperacousies.fr/',
+    link: '//hyperacousies.fr/',
     gitLink: '',
     title: '"hyperacousies"<br/>Freelance Job',
     text: `Freelance fullstack development project.<br/>Extra: Webdesign and Logo design.<br>Wordpress CMS website for the same psychotherapist.`,
@@ -60,7 +60,7 @@ export const postSix = {
 
 export const postSeven = {
     img: 'images/pic05.jpg',
-    link: 'https://hyperacousies.fr/',
+    link: '//hyperacousies.fr/',
     gitLink: '',
     title: '"hyperacousies"<br/>Freelance Job',
     text: 'Freelance fullstack development project.<br>Extra: Webdesign and Logo design.<br>Wordpress CMS website for the same psychotherapist.',
