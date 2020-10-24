@@ -9,12 +9,12 @@ export const postOne = {
 };
  
 export const postTwo = {
-    img: '',
-    link: '',
-    gitLink: '',
-    title: '',
-    text: '',
-    alt: '',
+    img: 'images/whatsapp.jpg',
+    link: 'https://whatsapp-christophecorreia.herokuapp.com/',
+    gitLink: 'https://github.com/christophefrancoiscorreia/whatsapp-clone',
+    title: 'WhatsApp Clone',
+    text: 'Creation of a chat enviroment, "Whatsapp" like.',
+    alt: 'WhatsApp Clone',
     self: false,
 };
 export const postThree = {
