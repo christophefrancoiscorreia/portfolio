@@ -15,8 +15,8 @@ function Navbar() {
                         <Link to="/">Presentation</Link>
                     </li>
                     <li>
-                        <Link to="/moreworks">
-                            More works
+                        <Link to="/more-projects">
+                            More Projects
                         </Link>
                     </li>
                     <li><span><BsDot/></span></li>

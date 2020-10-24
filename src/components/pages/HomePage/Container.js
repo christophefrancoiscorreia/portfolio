@@ -1,7 +1,7 @@
 import React from 'react'
 import { postFour, postOne, postThree, postTwo } from '../../Data'
-import PostArticle from './posts/PostArticle'
-import PostFeatured from './posts/PostFeatured'
+import PostArticle from '../../PostArticle'
+import PostFeatured from './PostFeatured'
 
 function Container() {
     return (
@@ -9,7 +9,7 @@ function Container() {
             <PostFeatured link="/" img="images/pic01.jpg" />
             
             <section className="posts">
-                <PostArticle {...postOne} />
+                <PostArticle {...postOne} /> 
                 <PostArticle {...postTwo} />
                 <PostArticle {...postThree} />
                 <PostArticle {...postFour} />
