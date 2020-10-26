@@ -1,4 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import {
+    FaGithubAlt,
+    FaLinkedin
+  } from 'react-icons/fa';
 function Footer() {
     return (
         <>
@@ -11,8 +16,16 @@ function Footer() {
                     <section>
                         <h3>Social</h3>
                         <ul className="icons alt">
-                            <li><a href="https://www.linkedin.com/in/christophe-fran%C3%A7ois-correia/" className="icon brands fa-linkedin" target="_blank" rel="noopener noreferrer"><span className="label">Instagram</span></a></li>
-                            <li><a href="https://github.com/christophefrancoiscorreia" className="icon brands fa-github" target="_blank" rel="noopener noreferrer"><span className="label">GitHub</span></a></li>
+                            <li>
+                                <Link className="icon" to={'//www.linkedin.com/in/christophe-fran%C3%A7ois-correia/'} target="_blank" rel="noopener noreferrer">
+                                    <FaLinkedin />
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className="icon" to={'//github.com/christophefrancoiscorreia'} target="_blank" rel="noopener noreferrer">
+                                    <FaGithubAlt />
+                                </Link>
+                            </li>
                         </ul>
                     </section>
                 </section>

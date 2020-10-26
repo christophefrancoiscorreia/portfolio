@@ -1,3 +1,13 @@
+export const postFeatured = {
+    img: 'images/netflixclone.jpg',
+    link: '//netflix-clone-ccorreia.herokuapp.com/',
+    gitLink: '//github.com/christophefrancoiscorreia/netflix-clone.git',
+    title: 'Netflix clone',
+    text: 'Website template web react app, clone of the netflix application',
+    alt: 'Netflix clone',
+    self: false,
+};
+
 export const postOne = {
     img: 'images/mybanktemplate.jpg',
     link: '//responsive-website-test.herokuapp.com/',
@@ -59,40 +69,40 @@ export const postSix = {
 }; 
 
 export const postSeven = {
-    img: 'images/pic05.jpg',
-    link: '//hyperacousies.fr/',
+    img: 'images/pic06.jpg',
+    link: '//media.volkswagen.fr/',
     gitLink: '',
-    title: '"hyperacousies"<br/>Freelance Job',
-    text: 'Freelance fullstack development project.<br>Extra: Webdesign and Logo design.<br>Wordpress CMS website for the same psychotherapist.',
-    alt: '',
+    title: 'Volkswagen Mediaroom',
+    text: 'A media room for the french Volkswagen Group.<br>A project done at <a href"https://epresspack.com" target="_blank" rel="noopener noreferrer">epresspack</a> core.',
+    alt: 'Volkswagen mediaroom',
     self: false,
 }; 
 
 export const postEight = {
-    img: '',
-    link: '',
+    img: 'images/pic07.jpg',
+    link: '//presse.leboncoingroupe.com/',
     gitLink: '',
-    title: '',
-    text: '',
-    alt: '',
+    title: 'Leboncoin pressroom',
+    text: 'A pressroom for the Groupe Leboncoin.<br>A project done at <a href"https://epresspack.com" target="_blank" rel="noopener noreferrer">epresspack</a> core.',
+    alt: 'Leboncoin pressroom',
     self: false,
 };
 export const postNine = {
-    img: '',
-    link: '',
+    img: 'images/pic10.jpg',
+    link: '//presse.groupeadp.fr/',
     gitLink: '',
-    title: '',
-    text: '',
-    alt: '',
+    title: 'Groupe ADP pressroom',
+    text: 'A pressroom for the Groupe ADP, (the airports group of Paris).<br>A project done at <a href"https://epresspack.com" target="_blank" rel="noopener noreferrer">epresspack</a> core.',
+    alt: 'Groupe ADP pressroom',
     self: false,
 };
 export const postTen = {
-    img: '',
-    link: '',
+    img: 'images/pic11.jpg',
+    link: '//presse.hermes.com/horloger/',
     gitLink: '',
-    title: '',
-    text: '',
-    alt: '',
+    title: 'Hermes mediarooom',
+    text: 'A mediaroom for Hermes, a parisian fashion company.<br>A project done at <a href"https://epresspack.com" target="_blank" rel="noopener noreferrer">epresspack</a> core.',
+    alt: 'Hermes mediarooom',
     self: false,
 };
  

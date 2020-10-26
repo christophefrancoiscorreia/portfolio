@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import {
     FaGithubAlt,
     FaLinkedin
@@ -7,14 +7,16 @@ import {
   import { BsDot } from 'react-icons/bs';
 
 function Navbar() {
+    const location = useLocation();
+
     return (
         <>
             <nav id="nav">
                 <ul className="links">
-                    <li className="active">
+                    <li className={ (location.pathname === "/") ? 'active' : '' }>
                         <Link to="/">Presentation</Link>
                     </li>
-                    <li>
+                    <li className={ (location.pathname === "/more-projects") ? 'active' : '' }>
                         <Link to="/more-projects">
                             More Projects
                         </Link>
