@@ -17,10 +17,10 @@ function Links() {
                     </Link>
                 </li>
                 <li><span><BsDot/></span></li>
-                <li><a href="/Christophe_Correia_-_Front_end_Developer_Oct-2020.pdf" download>My CV 2020</a></li>
+                <li><a href="/Christophe_Correia_-_Front_end_Developer__Nov-2020.pdf" download>My CV 2020</a></li>
             </ul> 
         </>
-    )
+    ) 
 }
 
 export default Links
