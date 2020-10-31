@@ -1,10 +1,29 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
     FaGithubAlt,
     FaLinkedin
   } from 'react-icons/fa';
 function Footer() {
+
+    const [scrolling, setScrolling] = useState(0);
+
+  useEffect(()=>{
+    const scrollListener = () => {
+      if(window.scrollY > 0){
+        setScrolling(window.scrollY )            
+      }else{
+        setScrolling(0) 
+      }
+    }
+
+    window.addEventListener('scroll', scrollListener);
+
+    return () => {
+      window.removeEventListener('scroll', scrollListener);
+    }
+  },[])
+
     return (
         <>
             <footer id="footer">
@@ -33,6 +52,7 @@ function Footer() {
             <div id="copyright">
                 <ul><li>&copy; Christophe François Correia</li></ul>
             </div>
+            <div class="bg" style={{transform: `translateY(${scrolling * .8}px)`}}></div>
         </>
     )
 }

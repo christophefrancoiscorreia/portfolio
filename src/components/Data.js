@@ -2,18 +2,18 @@ export const postFeatured = {
     img: 'images/netflixclone.jpg',
     link: '//netflix-clone-ccorreia.herokuapp.com/',
     gitLink: '//github.com/christophefrancoiscorreia/netflix-clone.git',
-    title: 'Netflix clone',
-    text: 'Website template web react app, clone of the netflix application',
+    title: 'Netflix React Clone',
+    text: 'Netflix React Clone<br>React, BrowserRouter, Fetch Tmdb API',
     alt: 'Netflix clone',
     self: false,
 };
 
 export const postOne = {
-    img: 'images/mybanktemplate.jpg',
-    link: '//responsive-website-test.herokuapp.com/',
-    gitLink: '//github.com/christophefrancoiscorreia/responsive-react-website',
-    title: 'Responsive Website',
-    text: 'Website template, web react app.',
+    img: 'images/bankingVideo.jpg',
+    link: '//website-template-bank.herokuapp.com/',
+    gitLink: '//github.com/christophefrancoiscorreia/react-website-template.git',
+    title: 'Responsive React Website',
+    text: 'React, Javascript, Scroll Animation, BrowserRouter, Styled Components.',
     alt: 'Responsive Website',
     self: false,
 };
@@ -22,8 +22,8 @@ export const postTwo = {
     img: 'images/whatsapp.jpg',
     link: '//whatsapp-christophecorreia.herokuapp.com/',
     gitLink: '//github.com/christophefrancoiscorreia/whatsapp-clone',
-    title: 'WhatsApp Clone',
-    text: 'Creation of a chat enviroment, "Whatsapp" like.',
+    title: 'WhatsApp React Clone',
+    text: 'React, Local Storage, Socket.io, Bootstrap',
     alt: 'WhatsApp Clone',
     self: false,
 };
@@ -32,7 +32,7 @@ export const postThree = {
     link: '/budgety',
     gitLink: '//github.com/christophefrancoiscorreia/budget-income-manager',
     title: 'Budget manager',
-    text: `Project in full vanila javascript.<br/>App to manage a monthly wallet.`,
+    text: `Vanilla Javascript, ES5`,
     alt: 'Budget manager',
     self: true,
 };
@@ -42,7 +42,7 @@ export const postFour = {
     link: '/forkify',
     gitLink: '//github.com/christophefrancoiscorreia/recipes-searcher',
     title: 'Forkify',
-    text: 'Project in ES6 compiled with Webpack. API parsing. <br/>A search motor for recipes, where you can generate an ingredients list and add favorite recipes to your localstorage.',
+    text: 'Vanilla Javascript, ES6, Webpack, Css3, Html5, Fetch Rest API, Async, Class',
     alt: 'Forkify',
     self: true,
 };
@@ -52,7 +52,7 @@ export const postFive = {
     link: '//www.trainingneurosensoriel.com/',
     gitLink: '',
     title: '"Hipérion"<br/>Freelance Job',
-    text: `Freelance fullstack development project.<br/>Extra: Webdesign and Logo design.<br>Wordpress for a psychotherapist office based in Paris.`,
+    text: `Wordpress, jQuery, Css, SEO, Accessibility<br>Freelance fullstack development project.<br/>Extra: Webdesign and Logo design.<br>Wordpress for a psychotherapist office based in Paris.`,
     alt: '"Hipérion"<br/>Freelance Job',
     self: false,
 }; 
@@ -63,7 +63,7 @@ export const postSix = {
     link: '//hyperacousies.fr/',
     gitLink: '',
     title: '"hyperacousies"<br/>Freelance Job',
-    text: `Freelance fullstack development project.<br/>Extra: Webdesign and Logo design.<br>Wordpress CMS website for the same psychotherapist.`,
+    text: `Wordpress, jQuery, Css, SEO, Accessibility<br>Freelance fullstack development project.<br/>Extra: Webdesign and Logo design.<br>Wordpress CMS website for the same psychotherapist.`,
     alt: '"hyperacousies"<br/>Freelance Job',
     self: false,
 }; 
@@ -73,7 +73,7 @@ export const postSeven = {
     link: '//media.volkswagen.fr/',
     gitLink: '',
     title: 'Volkswagen Mediaroom',
-    text: 'A media room for the french Volkswagen Group.<br>A project done at <a href"https://epresspack.com" target="_blank" rel="noopener noreferrer">epresspack</a> core.',
+    text: 'Wordpress, jQuery, Sass, Gulp<br>A media room for the french Volkswagen Group.<br>A project done at <a href"https://epresspack.com" target="_blank" rel="noopener noreferrer">epresspack</a> core.',
     alt: 'Volkswagen mediaroom',
     self: false,
 }; 
@@ -83,7 +83,7 @@ export const postEight = {
     link: '//presse.leboncoingroupe.com/',
     gitLink: '',
     title: 'Leboncoin pressroom',
-    text: 'A pressroom for the Groupe Leboncoin.<br>A project done at <a href"https://epresspack.com" target="_blank" rel="noopener noreferrer">epresspack</a> core.',
+    text: 'Wordpress, jQuery, Sass, Gulp<br>A pressroom for the Groupe Leboncoin.<br>A project done at <a href"https://epresspack.com" target="_blank" rel="noopener noreferrer">epresspack</a> core.',
     alt: 'Leboncoin pressroom',
     self: false,
 };
@@ -92,7 +92,7 @@ export const postNine = {
     link: '//presse.groupeadp.fr/',
     gitLink: '',
     title: 'Groupe ADP pressroom',
-    text: 'A pressroom for the Groupe ADP, (the airports group of Paris).<br>A project done at <a href"https://epresspack.com" target="_blank" rel="noopener noreferrer">epresspack</a> core.',
+    text: 'Wordpress, jQuery, Sass, Gulp<br>A pressroom for the Groupe ADP, (the airports group of Paris).<br>A project done at <a href"https://epresspack.com" target="_blank" rel="noopener noreferrer">epresspack</a> core.',
     alt: 'Groupe ADP pressroom',
     self: false,
 };
@@ -101,7 +101,7 @@ export const postTen = {
     link: '//presse.hermes.com/horloger/',
     gitLink: '',
     title: 'Hermes mediarooom',
-    text: 'A mediaroom for Hermes, a parisian fashion company.<br>A project done at <a href"https://epresspack.com" target="_blank" rel="noopener noreferrer">epresspack</a> core.',
+    text: 'Wordpress, jQuery, Sass, Gulp<br>A mediaroom for Hermes, a parisian fashion company.<br>A project done at <a href"https://epresspack.com" target="_blank" rel="noopener noreferrer">epresspack</a> core.',
     alt: 'Hermes mediarooom',
     self: false,
 };

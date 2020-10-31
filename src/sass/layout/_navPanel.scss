@@ -7,7 +7,6 @@
 /* Nav Panel */
 
 	#navPanelToggle {
-		@include icon(false, solid);
 		@include vendor('transition', (
 			'color #{_duration(transition)} ease-in-out',
 			'background-color #{_duration(transition)} ease-in-out',
@@ -27,10 +26,6 @@
 		text-transform: uppercase;
 		z-index: _misc(z-index-base) + 1;
 
-		&:before {
-			content: '\f0c9';
-			margin-right: 0.5rem;
-		}
 
 		&.alt {
 			background-color: transparentize(_palette(bg), 0.125);
@@ -43,7 +38,15 @@
 		}
 
 		@include breakpoint('<=medium') {
-			display: block;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			svg{
+				margin-right: 0.5rem;
+			}
+
+
 		}
 
 		@include breakpoint('<=small') {
@@ -97,7 +100,6 @@
 		}
 
 		.close {
-			@include icon(false, solid);
 			@include vendor('transition', 'color #{_duration(transition)} ease-in-out');
 			-webkit-tap-highlight-color: rgba(0,0,0,0);
 			border: 0;
@@ -113,11 +115,6 @@
 			top: 0;
 			vertical-align: middle;
 			width: 7rem;
-
-			&:before {
-				content: '\f00d';
-				font-size: 1.25rem;
-			}
 
 			&:hover {
 				color: _palette(fg-bold);
@@ -140,6 +137,7 @@
 
 	@include breakpoint('<=medium') {
 		body.is-navPanel-visible {
+			overflow: hidden;
 			#wrapper {
 				opacity: 0.5;
 			}

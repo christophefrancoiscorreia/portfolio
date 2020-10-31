@@ -1,5 +1,5 @@
 import React from 'react'
-import { postFive, postSix, postSeven, postEight } from '../../Data'
+import { postFive, postSix, postSeven, postEight, postTen, postNine } from '../../Data'
 import PostArticle from '../../PostArticle'
 
 function Container() {
@@ -10,6 +10,8 @@ function Container() {
                 <PostArticle {...postSix} />
                 <PostArticle {...postSeven} />
                 <PostArticle {...postEight} /> 
+                <PostArticle {...postNine} /> 
+                <PostArticle {...postTen} /> 
             </section>      
         </div>
     )
